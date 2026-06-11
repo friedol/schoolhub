@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/gotlaptopparts.com/Desktop/LaravelProject/EduTZ-SMS -type f | head -50 && echo \"---\" && ls /Users/gotlaptopparts.com/Desktop/LaravelProject/)",
+      "Read(//Users/gotlaptopparts.com/Desktop/LaravelProject/**)",
+      "Bash(find /Users/gotlaptopparts.com/Desktop/LaravelProject -maxdepth 2 -name \"school-project\" -type d 2>/dev/null; ls /Users/gotlaptopparts.com/Desktop/ | grep -i school)",
+      "Read(//Users/gotlaptopparts.com/Desktop/**)",
+      "Bash(sed 's/.*CREATE TABLE `//g')",
+      "Bash(sed 's/`.*//')",
+      "Bash(mkdir -p /Users/gotlaptopparts.com/Desktop/LaravelProject/EduTZ-SMS/resources/js/pages/Transport/Vehicles)",
+      "Bash(mkdir -p /Users/gotlaptopparts.com/Desktop/LaravelProject/EduTZ-SMS/resources/js/pages/Transport/Routes)",
+      "Bash(mkdir -p /Users/gotlaptopparts.com/Desktop/LaravelProject/EduTZ-SMS/resources/js/pages/Transport/Assignments)",
+      "Bash(mkdir -p /Users/gotlaptopparts.com/Desktop/LaravelProject/EduTZ-SMS/resources/js/pages/Transport/Trips)",
+      "Bash(mkdir -p /Users/gotlaptopparts.com/Desktop/LaravelProject/EduTZ-SMS/resources/js/pages/Transport/Maintenance)",
+      "Bash(mkdir -p /Users/gotlaptopparts.com/Desktop/LaravelProject/EduTZ-SMS/resources/js/pages/Communication/Messages)",
+      "Bash(mkdir -p /Users/gotlaptopparts.com/Desktop/LaravelProject/EduTZ-SMS/resources/js/pages/Communication/NoticeBoard)"
+    ]
+  }
+}
